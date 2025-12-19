@@ -16,6 +16,7 @@ The workflow integrates **Python (EDA & feature engineering)**, **PostgreSQL (da
 ---
 
 ## 🧱 Project Structure
+```
 olist-customer-satisfaction/
 ├── data/
 │   └── raw/                  # Original CSV files (ignored in Git)
@@ -32,6 +33,7 @@ olist-customer-satisfaction/
 │   └── 03_order_level_exploration.twb
 ├── README.md
 └── .gitignore
+```
 
 ---
 
@@ -59,11 +61,12 @@ notebooks/01_olist_eda_delivery_satisfaction.ipynb
 - Used window functions, filters, and percentile metrics
 
 SQL scripts:
+```
 sql/01_views.sql
 sql/02_kpis.sql
 sql/03_analysis.sql
 sql/04_views_tableau.sql
-
+```
 ---
 
 ### 3️⃣ Business Intelligence (Tableau)
