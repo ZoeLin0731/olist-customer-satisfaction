@@ -1,0 +1,17 @@
+# mac
+.DS_Store
+
+# data (keep raw data out of repo)
+data/raw/
+data/**/raw/
+
+# notebooks
+.ipynb_checkpoints/
+
+# env / secrets
+.env
+*.env
+
+# python
+__pycache__/
+*.pyc
